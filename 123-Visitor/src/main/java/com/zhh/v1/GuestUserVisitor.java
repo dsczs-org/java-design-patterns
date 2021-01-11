@@ -7,10 +7,12 @@ package com.zhh.v1;
  */
 public class GuestUserVisitor implements Visitor {
 
+    @Override
     public void visit(ArticleContent articleContent) {
         System.out.println(String.format("匿名用户访问博客文章[%s]", articleContent.getName()));
     }
 
+    @Override
     public void visit(ResourceContent resourceContent) {
         if (resourceContent.isNeedLogin()) {
             System.out.println("匿名用户无法访问当前资源, 请登录!");

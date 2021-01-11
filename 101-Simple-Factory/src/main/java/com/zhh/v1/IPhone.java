@@ -7,6 +7,7 @@ package com.zhh.v1;
  */
 public class IPhone implements Phone {
 
+    @Override
     public void call() {
         System.out.println("使用苹果手机拨打电话");
     }

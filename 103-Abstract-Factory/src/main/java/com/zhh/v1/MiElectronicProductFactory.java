@@ -7,10 +7,12 @@ package com.zhh.v1;
  */
 public class MiElectronicProductFactory implements ElectronicProductFactory {
 
+    @Override
     public Phone getPhone() {
         return new MiPhone();
     }
 
+    @Override
     public Computer getComputer() {
         return new MiComputer();
     }

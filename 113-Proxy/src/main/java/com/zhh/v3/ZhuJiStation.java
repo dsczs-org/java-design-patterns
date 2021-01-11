@@ -52,6 +52,7 @@ public class ZhuJiStation implements Station {
         this.end = end;
     }
 
+    @Override
     public void buy() {
         System.out.println(String.format("%s购买了从%s至%s的火车票", username, start, end));
     }

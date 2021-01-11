@@ -12,6 +12,7 @@ import java.lang.reflect.Method;
  */
 public class StationDynamicProxy implements MethodInterceptor {
 
+    @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         // 模拟日志打印
         System.out.println("【日志打印】真实操作之前进行日志打印");

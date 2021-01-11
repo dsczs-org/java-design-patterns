@@ -30,6 +30,7 @@ public class Website12306 implements Station {
         this.end = end;
     }
 
+    @Override
     public void buy() {
         // 模拟日志打印
         System.out.println(String.format("【打印日志】 %s在12306平台上购买从%s至%s的火车票", username, start, end));

@@ -43,6 +43,7 @@ public class Shirt implements Clothes {
         this.price = price;
     }
 
+    @Override
     public void info() {
         System.out.println(String.format("当前衬衣信息: {品牌: %s, 大小: %s, 成分: %s, 价格: %s}", brand, size, component, price));
     }

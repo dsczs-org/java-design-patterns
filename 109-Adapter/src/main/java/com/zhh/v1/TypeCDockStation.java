@@ -7,6 +7,7 @@ package com.zhh.v1;
  */
 public class TypeCDockStation extends TypeCInterface implements SDInterface {
 
+    @Override
     public void sdRead() {
         System.out.println("SD卡接口读取...");
         System.out.println("扩展坞转换");

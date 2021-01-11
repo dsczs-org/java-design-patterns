@@ -7,6 +7,7 @@ package com.zhh.v1;
  */
 public class MiPhoneFactory implements PhoneFactory {
 
+    @Override
     public Phone getPhone() {
         return new MiPhone();
     }

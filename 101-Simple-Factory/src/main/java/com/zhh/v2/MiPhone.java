@@ -7,6 +7,7 @@ package com.zhh.v2;
  */
 public class MiPhone implements Phone {
 
+    @Override
     public void call() {
         System.out.println("使用小米手机拨打电话");
     }
